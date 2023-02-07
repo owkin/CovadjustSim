@@ -1,0 +1,40 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# CovadjustSim
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of CovadjustSim is to ensure the reproducibility of the results
+presented in the paper “More efficient and inclusive time-to-event
+trials with covariate adjustment: a simulation study”.
+
+Additionally, it may also be useful for power analysis for models based
+on the proportional hazard assumption.
+
+## Installation
+
+You can install the development version of CovadjustSim from
+[GitHub](https://github.com/owkin/CovadjustSim) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("owkin/CovadjustSim")
+```
+
+## Simulation results
+
+All simulation results are summarised in vignettes:
+
+``` r
+vignettes("power", package = "CovadjustSim")
+vignettes("eligibility", package = "CovadjustSim")
+```
+
+Steps to reproduce the results of parametric simulations are available
+in the source codes under the folder `data-raw`.
+
+## Power analysis with simulations
+
+TBD

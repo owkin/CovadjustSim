@@ -1,0 +1,51 @@
+Package: CovadjustSim
+Title: Simulation Study of Covariate Adjustment in Clinical Trials
+Version: 0.0.1
+Authors@R: c(
+    person(
+      "Honghao", "Li",
+      email = "honghao.li@owkin.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Raphaëlle", "Momal",
+      email = "raphaelle.momal@owkin.com",
+      role = "aut"
+    ),
+    person(
+      "Félix", "Balazard",
+      email = "felix.balazard@owkin.com",
+      role = "aut"
+    ))
+Description: A study of the effect of covariate adjustment in clinical trials,
+    based on parametric and semi-synthetic simulations. This package is intended
+    to reproduce the results presented in the article "More efficient and
+    inclusive time-to-event trials with covariate adjustment: a simulation
+    study".
+License: MIT + file LICENSE
+Imports:
+    dplyr,
+    furrr,
+    future,
+    interp,
+    magrittr,
+    parallelly,
+    purrr,
+    stats,
+    survival,
+    tidyr,
+    utils,
+    withr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends:
+    R (>= 2.10)
+LazyData: true
+Suggests:
+    forcats,
+    ggplot2,
+    knitr,
+    patchwork,
+    rmarkdown
+VignetteBuilder: knitr
